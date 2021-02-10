@@ -1,0 +1,35 @@
+Git Documentation
+
+->Tell git who you are
+$ git config --global user.name "ankur016"
+$ git config --global user.email "dubeyankur016@gmail.com"
+->To check all user settings by git
+ git config --list
+
+->Initialising the repository
+git init
+
+->To add file from unstaged to staged area where you can commit them and make git aware of the files
+git add "file_name" without quotes((use "git add" and/or "git commit -a"))
+
+->To commit files with messsages
+git commit -m "Commit Comment"
+
+->To check status where you are
+git statu
+
+git status --help
+
+->To add files to staging area and commit simultanesously
+git commit -a -m "Message"
+
+->To remove file that you want git not to track
+git rm --cached "FileName" without quotes
+
+->To remove all files from staging area to specific directory
+ git rm -r --cached pathName
+fatal: No pathspec was given. Which files should I remove?
+
+->To check commit history
+git log
+
