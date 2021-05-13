@@ -16,7 +16,7 @@ git add "file_name" without quotes((use "git add" and/or "git commit -a"))
 git commit -m "Commit Comment"
 
 ->To check status where you are
-git statu
+git status
 
 git status --help
 
@@ -32,4 +32,67 @@ fatal: No pathspec was given. Which files should I remove?
 
 ->To check commit history
 git log
+To check last two commits
+git log -2
+
+->Remove files from staging area to non staging area
+git restore --staged FILENAME 
+
+->To revert back the changes made in staging area, 
+git restore Filname.
+
+         GITHUB 
+
+->To check if your git repo is connected to any remote repository or not?
+ git remote -v
+
+->To add the remote master branch/ repository 
+git remote add origin YOUR_HTTP_REPOSITORY_ADDRESS
+
+->To connect local master branch to remote master branch 
+
+
+
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
